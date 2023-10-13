@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:wght@200;300;400;500;600;700;800&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: "Kodchasan", sans-serif;
+
+  --gradient-text: linear-gradient(
+    110.97deg,
+    rgba(4, 44, 84, 1) 1.84%,
+    rgba(27, 120, 222, 1) 50.67%
+  );
+  --gradient-bar: linear-gradient(
+    103.22deg,
+    rgba(4, 44, 84, 1) -13.86%,
+    rgba(27, 120, 222, 1) 99.55%
+  );
+
+  --color-bg: #e3f1ff;
+  --color-footer: #6ca7cf;
+  --color-blog: #042c54;
+  --color-text: #031b34;
+  --color-subtext: #ff8a71;
 }

@@ -1,0 +1,107 @@
+.msinvs__blog-container__article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2em;
+
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #fff 25%,
+    rgb(218, 237, 255) 85%,
+    rgba(27, 120, 222, 1) 110%
+  );
+
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #fff 25%,
+    rgb(218, 237, 255) 85%,
+    rgba(27, 120, 222, 1) 110%
+  );
+
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #fff 25%,
+    rgb(218, 237, 255) 85%,
+    rgba(27, 120, 222, 1) 110%
+  );
+
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #fff 25%,
+    rgb(218, 237, 255) 85%,
+    rgba(27, 120, 222, 1) 110%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 0% -10%,
+    #fff 25%,
+    rgb(218, 237, 255) 85%,
+    rgba(27, 120, 222, 1) 110%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.msinvs__blog-container__article-image {
+  width: 100%;
+  height: 240px;
+  background: var(--color-footer);
+  border-radius: 2em 2em 0 0;
+}
+
+.msinvs__blog-container__article-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2em 2em 0 0;
+}
+
+.msinvs__blog-container__article-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  height: 100%;
+}
+
+.msinvs__blog-container__article-content p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 11.65px;
+  line-height: 35px;
+  color: var(--color-text);
+}
+
+.msinvs__blog-container__article-content-gains {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.msinvs__blog-container__article-content-gains p {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--color-text);
+}
+
+.msinvs__blog-container__article-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+
+  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .msinvs__blog-container__article-content h3 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

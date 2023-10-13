@@ -1,0 +1,65 @@
+.msinvs__download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 0 4rem 8rem;
+
+  border-radius: 1rem;
+  background: var(--gradient-bar);
+}
+
+.msinvs__download-content h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 24px;
+  border-inline-end-width: 45px;
+  color: #fff;
+}
+
+.msinvs__download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.msinvs__download-btn button {
+  background: var(--color-text);
+  color: #fff;
+  border-radius: 40px;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+  .msinvs__download {
+    flex-direction: column;
+  }
+  .msinvs__download-btn {
+    margin: 2rem 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .msinvs__download {
+    margin: 4rem 2rem;
+  }
+  .msinvs__download-content h3 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .msinvs__download-btn button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
