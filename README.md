@@ -1,7 +1,7 @@
 # Concepto de Landing Page para un local de comidas para llevar
 ### [Página funcional](https://morenno.net/demoWebs/MSInvs/)
 
-![Landing page de local de comidas para llevar](https://morenno.net/demoWebs/img_thumbnails/MSInvsConcept.png)
+![Landing page de local de comidas para llevar](https://morenno.es/db/mock/msinvsWeb.png)
 
 ## Contenidos
 
